@@ -1,7 +1,7 @@
-# Title of Your Final Project Here 
+# Final Project: Education and Salary
 ## INFO 201 "Foundational Skills for Data Science"
 
-Authors: Your names here
+Authors: Aijing Yang, Xiaobo Li, Jeffery Chen, Roxy Xu
 
 
 For the Final Project -- Data Wrangling, add the following to this code repository:
