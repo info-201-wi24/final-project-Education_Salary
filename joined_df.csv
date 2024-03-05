@@ -1,179 +1,179 @@
-"country_name","continent_name","wage_span","median_salary","average_salary","lowest_salary","highest_salary","OOSR_Upper_Secondary_Age_Female","OOSR_Upper_Secondary_Age_Male","Gross_Tertiary_Education_Enrollment","Unemployment_Rate","IS_above_average","income_gap"
-"Afghanistan","Asia","Monthly",853.74,1001.15,252.53,4460.97,69,44,9.7,11.12,FALSE,4208.44
-"Albania","Europe","Monthly",832.84,956.92,241.22,4258.49,15,21,55,12.33,FALSE,4017.27
-"Algeria","Africa","Monthly",1148.84,1308.81,330.11,5824.18,0,0,51.4,11.7,FALSE,5494.07
-"Andorra","Europe","Monthly",3668.08,4069.77,1120.51,17653.28,0,0,0,0,TRUE,16532.77
-"Angola","Africa","Monthly",284.39,314.39,79.32,1403.96,0,0,9.3,6.89,FALSE,1324.64
-"Antigua and Barbuda","Caribbean","Monthly",1548.15,1677.78,422.22,7444.44,12,14,24.8,0,FALSE,7022.22
-"Argentina","South America","Monthly",110.28,129.42,32.57,577.13,7,15,90,9.79,FALSE,544.56
-"Armenia","Asia","Monthly",1700.25,1974.32,497.39,8780.39,4,16,54.6,16.99,TRUE,8283
-"Australia","Oceania","Monthly",4306.45,4903.23,1236.13,21774.19,6,10,113.1,5.27,TRUE,20538.06
-"Austria","Europe","Monthly",3572.94,4016.91,1014.8,17864.69,9,10,85.1,4.67,TRUE,16849.89
-"Azerbaijan","Asia","Monthly",1558.82,1741.18,441.18,7764.71,0,0,27.7,5.51,FALSE,7323.53
-"Bahrain","Asia","Monthly",3617.02,3936.17,984.04,17553.19,6,18,50.5,0.71,TRUE,16569.15
-"Bangladesh","Asia","Monthly",218.57,236.71,59.68,1052.06,36,41,20.6,4.19,FALSE,992.38
-"Barbados","Caribbean","Monthly",1395,1635,410,7250,3,7,65.4,10.33,FALSE,6840
-"Belarus","Europe","Monthly",849.5,983.28,247.49,4381.27,4,6,87.4,4.59,FALSE,4133.78
-"Belgium","Europe","Monthly",5729.39,6522.2,1997.89,27378.44,2,1,79.7,5.59,TRUE,25380.55
-"Belize","Central America","Monthly",1730,1965,495,8750,35,38,24.7,6.41,TRUE,8255
-"Benin","Africa","Monthly",488.25,549.48,138.58,2449.28,66,46,12.3,2.23,FALSE,2310.7
-"Bhutan","Asia","Monthly",407.26,449.3,113.17,1994.23,22,33,15.6,2.34,FALSE,1881.06
-"Bolivia","South America","Monthly",1131.5,1236.99,312.14,5505.78,22,22,0,3.5,FALSE,5193.64
-"Bosnia and Herzegovina","Europe","Monthly",1151.35,1248.65,313.51,5567.57,19,22,23.3,18.42,FALSE,5254.06
-"Botswana","Africa","Monthly",729.39,860.69,216.63,3822.03,0,0,24.9,18.19,FALSE,3605.4
-"Brazil","South America","Monthly",1490.04,1711.16,432.27,7609.56,14,16,51.3,12.08,FALSE,7177.29
-"Brunei","Asia","Monthly",2110.29,2375,595.59,10588.24,16,19,31.4,9.12,TRUE,9992.65
-"Bulgaria","Europe","Monthly",1605.41,1794.59,454.05,7945.95,14,10,71,4.34,FALSE,7491.9
-"Burkina Faso","Africa","Monthly",485.02,534.97,135.03,2384.83,65,67,6.5,6.26,FALSE,2249.8
-"Burundi","Africa","Monthly",384.78,420.08,105.55,1863.89,62,67,6.1,1.43,FALSE,1758.34
-"Cambodia","Asia","Monthly",745.19,808.3,203.41,3592.44,0,0,13.7,0.68,FALSE,3389.03
-"Cameroon","Africa","Monthly",633.27,744.45,186.92,3303.31,58,50,12.8,3.38,FALSE,3116.39
-"Canada","Northern America","Monthly",6311.03,7352.94,1850,32720.59,6,6,68.9,5.56,TRUE,30870.59
-"Cape Verde","Africa","Monthly",1706.29,1965.11,495.59,8742.33,24,29,23.6,12.25,TRUE,8246.74
-"Central African Republic","Africa","Monthly",621.99,699.33,175.64,3109.94,0,0,3,3.68,FALSE,2934.3
-"Chad","Africa","Monthly",707.39,787.96,198.2,3512.79,85,71,3.3,1.89,FALSE,3314.59
-"Chile","South America","Monthly",1890.4,2090.56,525.98,9274.09,5,5,88.5,7.09,TRUE,8748.11
-"China","Asia","Monthly",3684.93,4027.4,1015.07,17945.21,0,0,50.6,4.32,TRUE,16930.14
-"Colombia","South America","Monthly",995.6,1157.85,292.53,5137.79,20,22,55.3,9.71,FALSE,4845.26
-"Comoros","Africa","Monthly",567.21,651,163.93,2900.48,48,52,9,4.34,FALSE,2736.55
-"Cook Islands","Oceania","Monthly",2538.92,2832.34,712.57,12574.85,27,30,0,0,TRUE,11862.28
-"Costa Rica","Central America","Monthly",4016.06,4427.01,1115.16,19613.34,5,7,55.2,11.85,TRUE,18498.18
-"Croatia","Europe","Monthly",1935.48,2089.76,527.35,9298.74,11,16,67.9,6.93,TRUE,8771.39
-"Cuba","Caribbean","Monthly",783.33,916.67,231.25,4079.17,15,20,41.4,1.64,FALSE,3847.92
-"Cyprus","Europe","Monthly",1976.74,2293.87,581.4,10211.42,8,6,75.9,7.27,TRUE,9630.02
-"Czech Republic","Europe","Monthly",2310.03,2653.06,668.69,11810.68,3,3,64.1,1.93,TRUE,11141.99
-"Denmark","Europe","Monthly",5084.99,5779.04,1458.92,25637.39,9,11,80.6,4.91,TRUE,24178.47
-"Djibouti","Africa","Monthly",1378.57,1553,391.63,6921,67,66,5.3,10.3,FALSE,6529.37
-"Dominica","Caribbean","Monthly",496.3,555.56,140.74,2470.37,17,19,7.2,0,FALSE,2329.63
-"Dominican Republic","Caribbean","Monthly",318.89,350.6,88.62,1562.72,21,23,59.9,5.84,FALSE,1474.1
-"East Timor","Asia","Monthly",2030,2220,560,9860,22,27,17.8,4.55,TRUE,9300
-"Ecuador","South America","Monthly",1260,1370,340,6080,18,20,44.9,3.97,FALSE,5740
-"Egypt","Africa","Monthly",254.53,298.51,75.36,1329.24,24,23,35.2,10.76,FALSE,1253.88
-"El Salvador","Central America","Monthly",1470,1710,430,7610,35,33,29.4,4.11,FALSE,7180
-"Equatorial Guinea","Africa","Monthly",671.94,773.46,194.98,3432.22,0,0,1.9,6.43,FALSE,3237.24
-"Eritrea","Africa","Monthly",402,457.33,115.33,2033.33,53,45,3.4,5.14,FALSE,1918
-"Estonia","Europe","Monthly",2579.28,2906.98,729.39,12896.41,2,1,69.6,5.11,TRUE,12167.02
-"Ethiopia","Africa","Monthly",143.88,160.41,40.42,713.13,75,73,8.1,2.08,FALSE,672.71
-"Fiji","Oceania","Monthly",1939.13,2100,530.43,9347.83,0,0,16.1,4.1,TRUE,8817.4
-"Finland","Europe","Monthly",4238.9,4978.86,1257.93,22093.02,5,3,88.2,6.59,TRUE,20835.09
-"France","Europe","Monthly",3769.56,4377.38,1100.42,19467.23,4,5,65.6,8.43,TRUE,18366.81
-"Gabon","Africa","Monthly",800.85,894.31,225.59,3980.08,0,0,8.3,20,FALSE,3754.49
-"Georgia","Asia","Monthly",2309.7,2526.12,638.06,11231.34,4,7,63.9,14.4,TRUE,10593.28
-"Germany","Europe","Monthly",3731.5,4048.63,1014.8,17970.4,16,12,70.2,3.04,TRUE,16955.6
-"Ghana","Africa","Monthly",373.82,438.42,110.25,1946.6,28,28,15.7,4.33,FALSE,1836.35
-"Greece","Europe","Monthly",2241.01,2579.28,655.39,11522.2,6,4,136.6,17.24,TRUE,10866.81
-"Grenada","Caribbean","Monthly",2066.67,2329.63,588.89,10370.37,7,8,104.6,0,TRUE,9781.48
-"Guatemala","Central America","Monthly",1222.65,1335.88,337.15,5954.2,61,57,21.8,2.46,FALSE,5617.05
-"Guinea","Africa","Monthly",696.71,817.87,206.22,3634.99,76,59,11.6,4.3,FALSE,3428.77
-"Guyana","South America","Monthly",731.32,841.26,211.75,3737.87,0,0,11.6,11.85,FALSE,3526.12
-"Haiti","Caribbean","Monthly",444.95,506.2,127.66,2250.59,0,0,1.1,13.78,FALSE,2122.93
-"Honduras","Central America","Monthly",1022.22,1139.39,287.27,5090.91,54,58,26.2,5.39,FALSE,4803.64
-"Hungary","Europe","Monthly",1227.46,1344.23,339.45,5974.36,12,12,48.5,3.4,FALSE,5634.91
-"Iceland","Europe","Monthly",4661.2,5049.03,1273.23,22464.51,11,15,71.8,2.84,TRUE,21191.28
-"India","Asia","Monthly",327.97,384.43,97.07,1717.92,48,47,28.1,5.36,FALSE,1620.85
-"Indonesia","Asia","Monthly",678.91,788.83,198.5,3504.47,22,23,36.3,4.69,FALSE,3305.97
-"Iran","Asia","Monthly",932.63,1070.97,269.53,4770.47,27,25,68.1,11.38,FALSE,4500.94
-"Iraq","Asia","Monthly",1382.38,1573.31,395.62,6988.25,0,0,16.2,12.82,FALSE,6592.63
-"Italy","Europe","Monthly",3467.23,3868.92,972.52,17230.44,5,6,61.9,9.89,TRUE,16257.92
-"Jamaica","Caribbean","Monthly",565.78,624.56,157.59,2777.24,22,25,27.1,8,FALSE,2619.65
-"Japan","Asia","Monthly",3158.67,3453.12,869.97,15391.82,0,0,63.2,2.29,TRUE,14521.85
-"Jordan","Asia","Monthly",1946.4,2284.91,578.28,10141.04,43,48,34.4,14.72,TRUE,9562.76
-"Kazakhstan","Asia","Monthly",701,813.99,204.86,3620.08,0,0,61.7,4.59,FALSE,3415.22
-"Kenya","Africa","Monthly",863.29,991.43,250.22,4424.36,0,0,11.5,2.64,FALSE,4174.14
-"Kiribati","Oceania","Monthly",2206.45,2509.68,632.26,11161.29,0,0,0,0,TRUE,10529.03
-"Kyrgyzstan","Asia","Monthly",201.87,219.92,55.6,980.04,26,30,41.3,6.33,FALSE,924.44
-"Laos","Asia","Monthly",206.42,223.54,56.25,992.99,46,42,15,0.63,FALSE,936.74
-"Latvia","Europe","Monthly",1654.0727,1952.1038,491.75135,8657.804,4,5,88.1,6.52,TRUE,8166.05265
-"Lebanon","Asia","Monthly",753.33,873.33,219.33,3873.33,0,0,26.3,6.23,FALSE,3654
-"Lesotho","Africa","Monthly",540.54,625.33,157.39,2776.89,29,38,10.2,23.41,FALSE,2619.5
-"Liberia","Africa","Monthly",334.39,380.35,96.14,1690.44,31,20,11.9,2.81,FALSE,1594.3
-"Libya","Africa","Monthly",417.18,470.35,118.61,2085.89,0,0,60.5,18.56,FALSE,1967.28
-"Liechtenstein","Europe","Monthly",5224.04,5825.14,1464.48,25901.64,22,10,35.6,0,TRUE,24437.16
-"Lithuania","Europe","Monthly",903.87466,997.90189,251.75032,4428.3792,2,4,72.4,6.35,FALSE,4176.62888
-"Luxembourg","Europe","Monthly",4767.44,5211.42,1310.78,23150.11,17,22,19.2,5.36,TRUE,21839.33
-"Madagascar","Africa","Monthly",250.87,290.48,73.28,1291.74,64,63,5.4,1.76,FALSE,1218.46
-"Malawi","Africa","Monthly",132.38,151.69,38.24,674.79,76,62,0.8,5.65,FALSE,636.55
-"Malaysia","Asia","Monthly",1236.17,1406.38,355.32,6255.32,32,41,45.1,3.32,FALSE,5900
-"Maldives","Asia","Monthly",1099.61,1241.91,313.07,5517.46,0,0,31.2,6.14,FALSE,5204.39
-"Mali","Africa","Monthly",478.58,533.36,134.55,2368.71,79,71,4.5,7.22,FALSE,2234.16
-"Malta","Europe","Monthly",4439.75,4904.86,1236.79,21775.9,7,10,54.3,3.47,TRUE,20539.11
-"Marshall Islands","Oceania","Monthly",2070,2260,570,10100,41,45,23.7,0,TRUE,9530
-"Mauritania","Africa","Monthly",44.623043,52.497697,13.203171,232.82729,59,63,5,9.55,FALSE,219.624119
-"Mauritius","Africa","Monthly",901.53,1047.66,263.04,4653.78,17,25,40.6,6.67,FALSE,4390.74
-"Mexico","Central America","Monthly",1681.97,1917.34,482.78,8495.98,24,28,40.2,3.42,TRUE,8013.2
-"Moldova","Europe","Monthly",1318.68,1467.03,370.33,6538.46,35,36,39.8,5.47,FALSE,6168.13
-"Monaco","Europe","Monthly",4112.05,4492.6,1374.21,18921.78,0,0,0,0,TRUE,17547.57
-"Mongolia","Asia","Monthly",515.76,564.74,142.34,2509.62,20,22,65.6,6.01,FALSE,2367.28
-"Montenegro","Europe","Monthly",2621.56,2832.98,718.82,12579.28,10,12,56.1,14.88,TRUE,11860.46
-"Montserrat","Caribbean","Monthly",859.26,1011.11,255.56,4481.48,0,0,0,0,FALSE,4225.92
-"Morocco","Africa","Monthly",1634.24,1896.89,477.63,8433.85,30,26,35.9,9.02,TRUE,7956.22
-"Mozambique","Africa","Monthly",549.81,631.27,159.77,2803.88,73,65,7.3,3.24,FALSE,2644.11
-"Myanmar","Asia","Monthly",228.46,260.35,65.68,1156.59,38,47,18.8,1.58,FALSE,1090.91
-"Namibia","Africa","Monthly",821.41,927.4,233.7,4128.25,0,0,22.9,20.27,FALSE,3894.55
-"Nepal","Asia","Monthly",551.13,608.2,153.18,2703.11,13,26,12.4,1.41,FALSE,2549.93
-"Netherlands","Europe","Monthly",4756.87,5179.7,1427.06,22515.86,1,1,85,3.2,TRUE,21088.8
-"New Zealand","Oceania","Monthly",4196.41,4870.06,1227.54,21656.29,1,4,82,4.07,TRUE,20428.75
-"Nicaragua","Central America","Monthly",449.1,517.15,130.38,2299.95,0,0,17.4,6.84,FALSE,2169.57
-"Niger","Africa","Monthly",480.19,547.87,137.93,2433.17,89,84,4.4,0.47,FALSE,2295.24
-"Nigeria","Africa","Monthly",389.85,438.91,110.63,1949.27,0,0,10.2,8.1,FALSE,1838.64
-"Norway","Europe","Monthly",4420.02,4786.34,1208.23,21281.57,7,8,82,3.35,TRUE,20073.34
-"Oman","Asia","Monthly",3932.29,4635.42,1171.88,20572.92,17,8,38,2.67,TRUE,19401.04
-"Pakistan","Asia","Monthly",245.34,284.9,71.83,1266.61,0,0,9,4.45,FALSE,1194.78
-"Palau","Oceania","Monthly",2380,2740,690,12200,0,0,54.7,0,TRUE,11510
-"Panama","Central America","Monthly",1890,2130,540,9460,31,35,47.8,3.9,TRUE,8920
-"Papua New Guinea","Oceania","Monthly",1010.96,1128.77,284.93,5013.7,51,40,1.8,2.46,FALSE,4728.77
-"Paraguay","South America","Monthly",1019.69,1126.17,283.93,5009.74,30,33,34.6,4.81,FALSE,4725.81
-"Peru","South America","Monthly",1825.86,1997.36,503.96,8891.82,21,15,70.7,3.31,TRUE,8387.86
-"Philippines","Asia","Monthly",728.78,790.54,199.4,3511.56,17,24,35.5,2.15,FALSE,3312.16
-"Poland","Europe","Monthly",1496.57,1736.84,437.07,7734.55,4,4,67.8,3.47,FALSE,7297.48
-"Portugal","Europe","Monthly",2537,2917.55,739.96,13002.11,4,2,63.9,6.33,TRUE,12262.15
-"Qatar","Asia","Monthly",3846.15,4313.19,1090.66,19230.77,0,0,17.9,0.09,TRUE,18140.11
-"Romania","Europe","Monthly",1739.87,1921.11,484.01,8550.11,19,21,49.4,3.98,TRUE,8066.1
-"Russia","Europe","Monthly",975.51,1065.68,268.47,4744.34,3,3,81.9,4.59,FALSE,4475.87
-"Rwanda","Africa","Monthly",525.39,569.65,143.44,2532.68,49,50,6.7,1.03,FALSE,2389.24
-"Saint Kitts and Nevis","Caribbean","Monthly",1092.59,1259.26,318.52,5592.59,5,4,86.7,0,FALSE,5274.07
-"Saint Lucia","Caribbean","Monthly",922.22,1048.15,262.96,4666.67,21,20,14.1,20.71,FALSE,4403.71
-"Saint Vincent and the Grenadines","Caribbean","Monthly",1144.44,1262.96,318.52,5629.63,14,16,23.7,18.88,FALSE,5311.11
-"Samoa","Oceania","Monthly",808.66,884.48,223.83,3935.02,5,15,7.6,8.36,FALSE,3711.19
-"San Marino","Europe","Monthly",4450.32,4820.3,1215.64,21458.77,57,51,42.5,0,TRUE,20243.13
-"Saudi Arabia","Asia","Monthly",3840,4480,1128,19893.33,9,3,68,5.93,TRUE,18765.33
-"Senegal","Africa","Monthly",493.08,565.59,142.77,2513.74,0,0,12.8,6.6,FALSE,2370.97
-"Serbia","Europe","Monthly",1120.04,1273.6,320.66,5654.41,11,14,67.2,12.69,FALSE,5333.75
-"Seychelles","Africa","Monthly",1246.44,1403.13,353.99,6246.44,12,24,17.1,0,FALSE,5892.45
-"Sierra Leone","Africa","Monthly",249.1,277.75,69.92,1238.23,67,64,2,4.43,FALSE,1168.31
-"Singapore","Asia","Monthly",5647.06,6235.29,1573.53,27720.59,0,0,84.8,4.11,TRUE,26147.06
-"Slovakia","Europe","Monthly",2114.16,2315.01,581.4,10295.98,11,11,46.6,5.56,TRUE,9714.58
-"Slovenia","Europe","Monthly",1934.46,2093.02,528.54,9302.33,1,2,78.6,4.2,TRUE,8773.79
-"Solomon Islands","Oceania","Monthly",644.89,756.53,191.21,3361.05,0,0,0,0.58,FALSE,3169.84
-"Somalia","Africa","Monthly",392.16,455.19,114.85,2030.85,0,0,2.5,11.35,FALSE,1916
-"South Africa","Africa","Monthly",1441.44,1658.72,417.59,7366.19,20,22,22.4,28.18,FALSE,6948.6
-"Spain","Europe","Monthly",2579.28,2875.26,877.38,12050.74,1,2,88.9,13.96,TRUE,11173.36
-"Sri Lanka","Asia","Monthly",249.68,278.41,70.14,1239.11,13,18,19.6,4.2,FALSE,1168.97
-"Sudan","Africa","Monthly",67.61,74.53,18.8,331.92,50,53,16.9,16.53,FALSE,313.12
-"Suriname","South America","Monthly",122.18,133.57,33.65,592.8,34,42,12.6,7.33,FALSE,559.15
-"Sweden","Europe","Monthly",3568.16,4144.56,1043,18389.75,3,1,67,6.48,TRUE,17346.75
-"Switzerland","Europe","Monthly",9836.07,11292.9,2850.27,50363.93,20,16,59.6,4.58,TRUE,47513.66
-"Syria","Asia","Monthly",10.12,11.51,2.9,51.2,66,66,40.1,8.37,FALSE,48.3
-"Tajikistan","Asia","Monthly",959.78,1069.47,269.65,4753.2,0,0,31.3,11.02,FALSE,4483.55
-"Tanzania","Africa","Monthly",457.77,505.54,126.98,2245.08,88,84,4,1.98,FALSE,2118.1
-"Thailand","Asia","Monthly",2432.28,2662.11,670.31,11846.79,21,21,49.3,0.75,TRUE,11176.48
-"Togo","Africa","Monthly",787.96,852.41,214.31,3786.72,66,47,14.5,2.04,FALSE,3572.41
-"Tonga","Oceania","Monthly",668.09,778.72,195.74,3459.57,33,43,6.4,1.12,FALSE,3263.83
-"Trinidad and Tobago","Caribbean","Monthly",1258.11,1445.43,364.31,6430.68,0,0,12,2.69,FALSE,6066.37
-"Tunisia","Africa","Monthly",1088.33,1239.75,312.3,5520.5,0,0,31.7,16.02,FALSE,5208.2
-"Turkey","Asia","Monthly",254.1,286.13,72.08,1274.12,17,17,23.9,13.49,FALSE,1202.04
-"Turkmenistan","Asia","Monthly",1342.86,1500,377.14,6657.14,0,0,8,3.91,FALSE,6280
-"Turks and Caicos Islands","North America","Monthly",1350,1490,380,6640,35,29,0,0,FALSE,6260
-"Uganda","Africa","Monthly",645.21,698.31,176.04,3106.55,0,0,4.8,1.84,FALSE,2930.51
-"Ukraine","Europe","Monthly",530.73,622.8,157.32,2761.98,4,7,82.7,8.88,FALSE,2604.66
-"United Arab Emirates","Asia","Monthly",3324.25,3896.46,708.45,18637.6,2,2,36.8,2.35,TRUE,17929.15
-"United Kingdom","Europe","Monthly",6300,7235.37,1829.27,32214.63,4,5,60,3.85,TRUE,30385.36
-"United States","Northern America","Monthly",6966,7925,2000,35250,3,4,88.2,14.7,TRUE,33250
-"Uruguay","South America","Monthly",773.64,862.2,217.24,3829.12,9,15,63.1,8.73,FALSE,3611.88
-"Uzbekistan","Asia","Monthly",97.25,106.98,27.07,477.35,15,14,10.1,5.92,FALSE,450.28
-"Vanuatu","Oceania","Monthly",750.74,821.77,207.3,3650.48,46,41,4.7,4.39,FALSE,3443.18
-"Venezuela","South America","Monthly",3282.02,3862.91,972.99,17165.26,19,28,79.3,8.8,TRUE,16192.27
-"Vietnam","Asia","Monthly",612.57,711.24,179.25,3161.52,0,0,28.5,2.01,FALSE,2982.27
-"Yemen","Asia","Monthly",120.98,133.36,33.62,594.93,68,46,10.2,12.91,FALSE,561.31
-"Zambia","Africa","Monthly",0.26133504,0.28552394,0.072092424,1.2711033,0,0,4.1,11.43,FALSE,1.199010876
-"Zimbabwe","Africa","Monthly",555.40204,602.37635,151.42305,2674.772,50,45,10,4.95,FALSE,2523.34895
+"country_name","continent_name","wage_span","median_salary","average_salary","lowest_salary","highest_salary","OOSR_Upper_Secondary_Age_Female","OOSR_Upper_Secondary_Age_Male","Completion_Rate_Upper_Secondary_Male","Completion_Rate_Upper_Secondary_Female","Gross_Tertiary_Education_Enrollment","Unemployment_Rate","IS_above_average","Income_gap"
+"Afghanistan","Asia","Monthly",853.74,1001.15,252.53,4460.97,69,44,32,14,9.7,11.12,FALSE,4208.44
+"Albania","Europe","Monthly",832.84,956.92,241.22,4258.49,15,21,76,80,55,12.33,FALSE,4017.27
+"Algeria","Africa","Monthly",1148.84,1308.81,330.11,5824.18,0,0,22,37,51.4,11.7,FALSE,5494.07
+"Andorra","Europe","Monthly",3668.08,4069.77,1120.51,17653.28,0,0,0,0,0,0,TRUE,16532.77
+"Angola","Africa","Monthly",284.39,314.39,79.32,1403.96,0,0,24,15,9.3,6.89,FALSE,1324.64
+"Antigua and Barbuda","Caribbean","Monthly",1548.15,1677.78,422.22,7444.44,12,14,0,0,24.8,0,FALSE,7022.22
+"Argentina","South America","Monthly",110.28,129.42,32.57,577.13,7,15,46,53,90,9.79,FALSE,544.56
+"Armenia","Asia","Monthly",1700.25,1974.32,497.39,8780.39,4,16,69,79,54.6,16.99,TRUE,8283
+"Australia","Oceania","Monthly",4306.45,4903.23,1236.13,21774.19,6,10,0,0,113.1,5.27,TRUE,20538.06
+"Austria","Europe","Monthly",3572.94,4016.91,1014.8,17864.69,9,10,0,0,85.1,4.67,TRUE,16849.89
+"Azerbaijan","Asia","Monthly",1558.82,1741.18,441.18,7764.71,0,0,0,0,27.7,5.51,FALSE,7323.53
+"Bahrain","Asia","Monthly",3617.02,3936.17,984.04,17553.19,6,18,0,0,50.5,0.71,TRUE,16569.15
+"Bangladesh","Asia","Monthly",218.57,236.71,59.68,1052.06,36,41,32,27,20.6,4.19,FALSE,992.38
+"Barbados","Caribbean","Monthly",1395,1635,410,7250,3,7,91,97,65.4,10.33,FALSE,6840
+"Belarus","Europe","Monthly",849.5,983.28,247.49,4381.27,4,6,91,94,87.4,4.59,FALSE,4133.78
+"Belgium","Europe","Monthly",5729.39,6522.2,1997.89,27378.44,2,1,0,0,79.7,5.59,TRUE,25380.55
+"Belize","Central America","Monthly",1730,1965,495,8750,35,38,48,51,24.7,6.41,TRUE,8255
+"Benin","Africa","Monthly",488.25,549.48,138.58,2449.28,66,46,12,5,12.3,2.23,FALSE,2310.7
+"Bhutan","Asia","Monthly",407.26,449.3,113.17,1994.23,22,33,25,18,15.6,2.34,FALSE,1881.06
+"Bolivia","South America","Monthly",1131.5,1236.99,312.14,5505.78,22,22,0,0,0,3.5,FALSE,5193.64
+"Bosnia and Herzegovina","Europe","Monthly",1151.35,1248.65,313.51,5567.57,19,22,92,92,23.3,18.42,FALSE,5254.06
+"Botswana","Africa","Monthly",729.39,860.69,216.63,3822.03,0,0,55,66,24.9,18.19,FALSE,3605.4
+"Brazil","South America","Monthly",1490.04,1711.16,432.27,7609.56,14,16,65,75,51.3,12.08,FALSE,7177.29
+"Brunei","Asia","Monthly",2110.29,2375,595.59,10588.24,16,19,0,0,31.4,9.12,TRUE,9992.65
+"Bulgaria","Europe","Monthly",1605.41,1794.59,454.05,7945.95,14,10,0,0,71,4.34,FALSE,7491.9
+"Burkina Faso","Africa","Monthly",485.02,534.97,135.03,2384.83,65,67,6,2,6.5,6.26,FALSE,2249.8
+"Burundi","Africa","Monthly",384.78,420.08,105.55,1863.89,62,67,4,3,6.1,1.43,FALSE,1758.34
+"Cambodia","Asia","Monthly",745.19,808.3,203.41,3592.44,0,0,20,20,13.7,0.68,FALSE,3389.03
+"Cameroon","Africa","Monthly",633.27,744.45,186.92,3303.31,58,50,26,21,12.8,3.38,FALSE,3116.39
+"Canada","Northern America","Monthly",6311.03,7352.94,1850,32720.59,6,6,0,0,68.9,5.56,TRUE,30870.59
+"Cape Verde","Africa","Monthly",1706.29,1965.11,495.59,8742.33,24,29,0,0,23.6,12.25,TRUE,8246.74
+"Central African Republic","Africa","Monthly",621.99,699.33,175.64,3109.94,0,0,8,6,3,3.68,FALSE,2934.3
+"Chad","Africa","Monthly",707.39,787.96,198.2,3512.79,85,71,15,6,3.3,1.89,FALSE,3314.59
+"Chile","South America","Monthly",1890.4,2090.56,525.98,9274.09,5,5,83,88,88.5,7.09,TRUE,8748.11
+"China","Asia","Monthly",3684.93,4027.4,1015.07,17945.21,0,0,63,67,50.6,4.32,TRUE,16930.14
+"Colombia","South America","Monthly",995.6,1157.85,292.53,5137.79,20,22,69,78,55.3,9.71,FALSE,4845.26
+"Comoros","Africa","Monthly",567.21,651,163.93,2900.48,48,52,24,32,9,4.34,FALSE,2736.55
+"Cook Islands","Oceania","Monthly",2538.92,2832.34,712.57,12574.85,27,30,0,0,0,0,TRUE,11862.28
+"Costa Rica","Central America","Monthly",4016.06,4427.01,1115.16,19613.34,5,7,56,60,55.2,11.85,TRUE,18498.18
+"Croatia","Europe","Monthly",1935.48,2089.76,527.35,9298.74,11,16,0,0,67.9,6.93,TRUE,8771.39
+"Cuba","Caribbean","Monthly",783.33,916.67,231.25,4079.17,15,20,85,86,41.4,1.64,FALSE,3847.92
+"Cyprus","Europe","Monthly",1976.74,2293.87,581.4,10211.42,8,6,0,0,75.9,7.27,TRUE,9630.02
+"Czech Republic","Europe","Monthly",2310.03,2653.06,668.69,11810.68,3,3,0,0,64.1,1.93,TRUE,11141.99
+"Denmark","Europe","Monthly",5084.99,5779.04,1458.92,25637.39,9,11,0,0,80.6,4.91,TRUE,24178.47
+"Djibouti","Africa","Monthly",1378.57,1553,391.63,6921,67,66,0,0,5.3,10.3,FALSE,6529.37
+"Dominica","Caribbean","Monthly",496.3,555.56,140.74,2470.37,17,19,0,0,7.2,0,FALSE,2329.63
+"Dominican Republic","Caribbean","Monthly",318.89,350.6,88.62,1562.72,21,23,48,66,59.9,5.84,FALSE,1474.1
+"East Timor","Asia","Monthly",2030,2220,560,9860,22,27,49,55,17.8,4.55,TRUE,9300
+"Ecuador","South America","Monthly",1260,1370,340,6080,18,20,78,79,44.9,3.97,FALSE,5740
+"Egypt","Africa","Monthly",254.53,298.51,75.36,1329.24,24,23,43,41,35.2,10.76,FALSE,1253.88
+"El Salvador","Central America","Monthly",1470,1710,430,7610,35,33,34,36,29.4,4.11,FALSE,7180
+"Equatorial Guinea","Africa","Monthly",671.94,773.46,194.98,3432.22,0,0,0,0,1.9,6.43,FALSE,3237.24
+"Eritrea","Africa","Monthly",402,457.33,115.33,2033.33,53,45,0,0,3.4,5.14,FALSE,1918
+"Estonia","Europe","Monthly",2579.28,2906.98,729.39,12896.41,2,1,0,0,69.6,5.11,TRUE,12167.02
+"Ethiopia","Africa","Monthly",143.88,160.41,40.42,713.13,75,73,11,14,8.1,2.08,FALSE,672.71
+"Fiji","Oceania","Monthly",1939.13,2100,530.43,9347.83,0,0,0,0,16.1,4.1,TRUE,8817.4
+"Finland","Europe","Monthly",4238.9,4978.86,1257.93,22093.02,5,3,0,0,88.2,6.59,TRUE,20835.09
+"France","Europe","Monthly",3769.56,4377.38,1100.42,19467.23,4,5,0,0,65.6,8.43,TRUE,18366.81
+"Gabon","Africa","Monthly",800.85,894.31,225.59,3980.08,0,0,14,14,8.3,20,FALSE,3754.49
+"Georgia","Asia","Monthly",2309.7,2526.12,638.06,11231.34,4,7,79,83,63.9,14.4,TRUE,10593.28
+"Germany","Europe","Monthly",3731.5,4048.63,1014.8,17970.4,16,12,0,0,70.2,3.04,TRUE,16955.6
+"Ghana","Africa","Monthly",373.82,438.42,110.25,1946.6,28,28,12,9,15.7,4.33,FALSE,1836.35
+"Greece","Europe","Monthly",2241.01,2579.28,655.39,11522.2,6,4,0,0,136.6,17.24,TRUE,10866.81
+"Grenada","Caribbean","Monthly",2066.67,2329.63,588.89,10370.37,7,8,0,0,104.6,0,TRUE,9781.48
+"Guatemala","Central America","Monthly",1222.65,1335.88,337.15,5954.2,61,57,27,25,21.8,2.46,FALSE,5617.05
+"Guinea","Africa","Monthly",696.71,817.87,206.22,3634.99,76,59,22,13,11.6,4.3,FALSE,3428.77
+"Guyana","South America","Monthly",731.32,841.26,211.75,3737.87,0,0,49,64,11.6,11.85,FALSE,3526.12
+"Haiti","Caribbean","Monthly",444.95,506.2,127.66,2250.59,0,0,17,16,1.1,13.78,FALSE,2122.93
+"Honduras","Central America","Monthly",1022.22,1139.39,287.27,5090.91,54,58,29,35,26.2,5.39,FALSE,4803.64
+"Hungary","Europe","Monthly",1227.46,1344.23,339.45,5974.36,12,12,0,0,48.5,3.4,FALSE,5634.91
+"Iceland","Europe","Monthly",4661.2,5049.03,1273.23,22464.51,11,15,0,0,71.8,2.84,TRUE,21191.28
+"India","Asia","Monthly",327.97,384.43,97.07,1717.92,48,47,46,40,28.1,5.36,FALSE,1620.85
+"Indonesia","Asia","Monthly",678.91,788.83,198.5,3504.47,22,23,40,37,36.3,4.69,FALSE,3305.97
+"Iran","Asia","Monthly",932.63,1070.97,269.53,4770.47,27,25,0,0,68.1,11.38,FALSE,4500.94
+"Iraq","Asia","Monthly",1382.38,1573.31,395.62,6988.25,0,0,45,43,16.2,12.82,FALSE,6592.63
+"Italy","Europe","Monthly",3467.23,3868.92,972.52,17230.44,5,6,0,0,61.9,9.89,TRUE,16257.92
+"Jamaica","Caribbean","Monthly",565.78,624.56,157.59,2777.24,22,25,80,83,27.1,8,FALSE,2619.65
+"Japan","Asia","Monthly",3158.67,3453.12,869.97,15391.82,0,0,0,0,63.2,2.29,TRUE,14521.85
+"Jordan","Asia","Monthly",1946.4,2284.91,578.28,10141.04,43,48,49,63,34.4,14.72,TRUE,9562.76
+"Kazakhstan","Asia","Monthly",701,813.99,204.86,3620.08,0,0,95,96,61.7,4.59,FALSE,3415.22
+"Kenya","Africa","Monthly",863.29,991.43,250.22,4424.36,0,0,44,38,11.5,2.64,FALSE,4174.14
+"Kiribati","Oceania","Monthly",2206.45,2509.68,632.26,11161.29,0,0,13,20,0,0,TRUE,10529.03
+"Kyrgyzstan","Asia","Monthly",201.87,219.92,55.6,980.04,26,30,89,85,41.3,6.33,FALSE,924.44
+"Laos","Asia","Monthly",206.42,223.54,56.25,992.99,46,42,32,31,15,0.63,FALSE,936.74
+"Latvia","Europe","Monthly",1654.0727,1952.1038,491.75135,8657.804,4,5,0,0,88.1,6.52,TRUE,8166.05265
+"Lebanon","Asia","Monthly",753.33,873.33,219.33,3873.33,0,0,0,0,26.3,6.23,FALSE,3654
+"Lesotho","Africa","Monthly",540.54,625.33,157.39,2776.89,29,38,27,37,10.2,23.41,FALSE,2619.5
+"Liberia","Africa","Monthly",334.39,380.35,96.14,1690.44,31,20,18,9,11.9,2.81,FALSE,1594.3
+"Libya","Africa","Monthly",417.18,470.35,118.61,2085.89,0,0,0,0,60.5,18.56,FALSE,1967.28
+"Liechtenstein","Europe","Monthly",5224.04,5825.14,1464.48,25901.64,22,10,0,0,35.6,0,TRUE,24437.16
+"Lithuania","Europe","Monthly",903.87466,997.90189,251.75032,4428.3792,2,4,0,0,72.4,6.35,FALSE,4176.62888
+"Luxembourg","Europe","Monthly",4767.44,5211.42,1310.78,23150.11,17,22,0,0,19.2,5.36,TRUE,21839.33
+"Madagascar","Africa","Monthly",250.87,290.48,73.28,1291.74,64,63,16,15,5.4,1.76,FALSE,1218.46
+"Malawi","Africa","Monthly",132.38,151.69,38.24,674.79,76,62,15,13,0.8,5.65,FALSE,636.55
+"Malaysia","Asia","Monthly",1236.17,1406.38,355.32,6255.32,32,41,0,0,45.1,3.32,FALSE,5900
+"Maldives","Asia","Monthly",1099.61,1241.91,313.07,5517.46,0,0,0,0,31.2,6.14,FALSE,5204.39
+"Mali","Africa","Monthly",478.58,533.36,134.55,2368.71,79,71,23,12,4.5,7.22,FALSE,2234.16
+"Malta","Europe","Monthly",4439.75,4904.86,1236.79,21775.9,7,10,0,0,54.3,3.47,TRUE,20539.11
+"Marshall Islands","Oceania","Monthly",2070,2260,570,10100,41,45,0,0,23.7,0,TRUE,9530
+"Mauritania","Africa","Monthly",44.623043,52.497697,13.203171,232.82729,59,63,31,23,5,9.55,FALSE,219.624119
+"Mauritius","Africa","Monthly",901.53,1047.66,263.04,4653.78,17,25,0,0,40.6,6.67,FALSE,4390.74
+"Mexico","Central America","Monthly",1681.97,1917.34,482.78,8495.98,24,28,56,60,40.2,3.42,TRUE,8013.2
+"Moldova","Europe","Monthly",1318.68,1467.03,370.33,6538.46,35,36,63,71,39.8,5.47,FALSE,6168.13
+"Monaco","Europe","Monthly",4112.05,4492.6,1374.21,18921.78,0,0,0,0,0,0,TRUE,17547.57
+"Mongolia","Asia","Monthly",515.76,564.74,142.34,2509.62,20,22,60,73,65.6,6.01,FALSE,2367.28
+"Montenegro","Europe","Monthly",2621.56,2832.98,718.82,12579.28,10,12,83,90,56.1,14.88,TRUE,11860.46
+"Montserrat","Caribbean","Monthly",859.26,1011.11,255.56,4481.48,0,0,0,0,0,0,FALSE,4225.92
+"Morocco","Africa","Monthly",1634.24,1896.89,477.63,8433.85,30,26,0,0,35.9,9.02,TRUE,7956.22
+"Mozambique","Africa","Monthly",549.81,631.27,159.77,2803.88,73,65,8,5,7.3,3.24,FALSE,2644.11
+"Myanmar","Asia","Monthly",228.46,260.35,65.68,1156.59,38,47,14,19,18.8,1.58,FALSE,1090.91
+"Namibia","Africa","Monthly",821.41,927.4,233.7,4128.25,0,0,33,39,22.9,20.27,FALSE,3894.55
+"Nepal","Asia","Monthly",551.13,608.2,153.18,2703.11,13,26,27,28,12.4,1.41,FALSE,2549.93
+"Netherlands","Europe","Monthly",4756.87,5179.7,1427.06,22515.86,1,1,0,0,85,3.2,TRUE,21088.8
+"New Zealand","Oceania","Monthly",4196.41,4870.06,1227.54,21656.29,1,4,0,0,82,4.07,TRUE,20428.75
+"Nicaragua","Central America","Monthly",449.1,517.15,130.38,2299.95,0,0,0,0,17.4,6.84,FALSE,2169.57
+"Niger","Africa","Monthly",480.19,547.87,137.93,2433.17,89,84,4,1,4.4,0.47,FALSE,2295.24
+"Nigeria","Africa","Monthly",389.85,438.91,110.63,1949.27,0,0,57,44,10.2,8.1,FALSE,1838.64
+"Norway","Europe","Monthly",4420.02,4786.34,1208.23,21281.57,7,8,0,0,82,3.35,TRUE,20073.34
+"Oman","Asia","Monthly",3932.29,4635.42,1171.88,20572.92,17,8,0,0,38,2.67,TRUE,19401.04
+"Pakistan","Asia","Monthly",245.34,284.9,71.83,1266.61,0,0,24,23,9,4.45,FALSE,1194.78
+"Palau","Oceania","Monthly",2380,2740,690,12200,0,0,0,0,54.7,0,TRUE,11510
+"Panama","Central America","Monthly",1890,2130,540,9460,31,35,57,68,47.8,3.9,TRUE,8920
+"Papua New Guinea","Oceania","Monthly",1010.96,1128.77,284.93,5013.7,51,40,0,0,1.8,2.46,FALSE,4728.77
+"Paraguay","South America","Monthly",1019.69,1126.17,283.93,5009.74,30,33,60,67,34.6,4.81,FALSE,4725.81
+"Peru","South America","Monthly",1825.86,1997.36,503.96,8891.82,21,15,78,72,70.7,3.31,TRUE,8387.86
+"Philippines","Asia","Monthly",728.78,790.54,199.4,3511.56,17,24,74,83,35.5,2.15,FALSE,3312.16
+"Poland","Europe","Monthly",1496.57,1736.84,437.07,7734.55,4,4,0,0,67.8,3.47,FALSE,7297.48
+"Portugal","Europe","Monthly",2537,2917.55,739.96,13002.11,4,2,0,0,63.9,6.33,TRUE,12262.15
+"Qatar","Asia","Monthly",3846.15,4313.19,1090.66,19230.77,0,0,0,0,17.9,0.09,TRUE,18140.11
+"Romania","Europe","Monthly",1739.87,1921.11,484.01,8550.11,19,21,0,0,49.4,3.98,TRUE,8066.1
+"Russia","Europe","Monthly",975.51,1065.68,268.47,4744.34,3,3,0,0,81.9,4.59,FALSE,4475.87
+"Rwanda","Africa","Monthly",525.39,569.65,143.44,2532.68,49,50,19,16,6.7,1.03,FALSE,2389.24
+"Saint Kitts and Nevis","Caribbean","Monthly",1092.59,1259.26,318.52,5592.59,5,4,0,0,86.7,0,FALSE,5274.07
+"Saint Lucia","Caribbean","Monthly",922.22,1048.15,262.96,4666.67,21,20,70,90,14.1,20.71,FALSE,4403.71
+"Saint Vincent and the Grenadines","Caribbean","Monthly",1144.44,1262.96,318.52,5629.63,14,16,0,0,23.7,18.88,FALSE,5311.11
+"Samoa","Oceania","Monthly",808.66,884.48,223.83,3935.02,5,15,0,0,7.6,8.36,FALSE,3711.19
+"San Marino","Europe","Monthly",4450.32,4820.3,1215.64,21458.77,57,51,0,0,42.5,0,TRUE,20243.13
+"Saudi Arabia","Asia","Monthly",3840,4480,1128,19893.33,9,3,0,0,68,5.93,TRUE,18765.33
+"Senegal","Africa","Monthly",493.08,565.59,142.77,2513.74,0,0,11,10,12.8,6.6,FALSE,2370.97
+"Serbia","Europe","Monthly",1120.04,1273.6,320.66,5654.41,11,14,71,81,67.2,12.69,FALSE,5333.75
+"Seychelles","Africa","Monthly",1246.44,1403.13,353.99,6246.44,12,24,0,0,17.1,0,FALSE,5892.45
+"Sierra Leone","Africa","Monthly",249.1,277.75,69.92,1238.23,67,64,27,18,2,4.43,FALSE,1168.31
+"Singapore","Asia","Monthly",5647.06,6235.29,1573.53,27720.59,0,0,0,0,84.8,4.11,TRUE,26147.06
+"Slovakia","Europe","Monthly",2114.16,2315.01,581.4,10295.98,11,11,0,0,46.6,5.56,TRUE,9714.58
+"Slovenia","Europe","Monthly",1934.46,2093.02,528.54,9302.33,1,2,0,0,78.6,4.2,TRUE,8773.79
+"Solomon Islands","Oceania","Monthly",644.89,756.53,191.21,3361.05,0,0,0,0,0,0.58,FALSE,3169.84
+"Somalia","Africa","Monthly",392.16,455.19,114.85,2030.85,0,0,0,0,2.5,11.35,FALSE,1916
+"South Africa","Africa","Monthly",1441.44,1658.72,417.59,7366.19,20,22,45,52,22.4,28.18,FALSE,6948.6
+"Spain","Europe","Monthly",2579.28,2875.26,877.38,12050.74,1,2,0,0,88.9,13.96,TRUE,11173.36
+"Sri Lanka","Asia","Monthly",249.68,278.41,70.14,1239.11,13,18,32,43,19.6,4.2,FALSE,1168.97
+"Sudan","Africa","Monthly",67.61,74.53,18.8,331.92,50,53,33,28,16.9,16.53,FALSE,313.12
+"Suriname","South America","Monthly",122.18,133.57,33.65,592.8,34,42,18,26,12.6,7.33,FALSE,559.15
+"Sweden","Europe","Monthly",3568.16,4144.56,1043,18389.75,3,1,0,0,67,6.48,TRUE,17346.75
+"Switzerland","Europe","Monthly",9836.07,11292.9,2850.27,50363.93,20,16,0,0,59.6,4.58,TRUE,47513.66
+"Syria","Asia","Monthly",10.12,11.51,2.9,51.2,66,66,0,0,40.1,8.37,FALSE,48.3
+"Tajikistan","Asia","Monthly",959.78,1069.47,269.65,4753.2,0,0,80,63,31.3,11.02,FALSE,4483.55
+"Tanzania","Africa","Monthly",457.77,505.54,126.98,2245.08,88,84,32,27,4,1.98,FALSE,2118.1
+"Thailand","Asia","Monthly",2432.28,2662.11,670.31,11846.79,21,21,59,72,49.3,0.75,TRUE,11176.48
+"Togo","Africa","Monthly",787.96,852.41,214.31,3786.72,66,47,31,12,14.5,2.04,FALSE,3572.41
+"Tonga","Oceania","Monthly",668.09,778.72,195.74,3459.57,33,43,45,56,6.4,1.12,FALSE,3263.83
+"Trinidad and Tobago","Caribbean","Monthly",1258.11,1445.43,364.31,6430.68,0,0,0,0,12,2.69,FALSE,6066.37
+"Tunisia","Africa","Monthly",1088.33,1239.75,312.3,5520.5,0,0,40,57,31.7,16.02,FALSE,5208.2
+"Turkey","Asia","Monthly",254.1,286.13,72.08,1274.12,17,17,51,44,23.9,13.49,FALSE,1202.04
+"Turkmenistan","Asia","Monthly",1342.86,1500,377.14,6657.14,0,0,93,95,8,3.91,FALSE,6280
+"Turks and Caicos Islands","North America","Monthly",1350,1490,380,6640,35,29,0,0,0,0,FALSE,6260
+"Uganda","Africa","Monthly",645.21,698.31,176.04,3106.55,0,0,18,15,4.8,1.84,FALSE,2930.51
+"Ukraine","Europe","Monthly",530.73,622.8,157.32,2761.98,4,7,97,97,82.7,8.88,FALSE,2604.66
+"United Arab Emirates","Asia","Monthly",3324.25,3896.46,708.45,18637.6,2,2,0,0,36.8,2.35,TRUE,17929.15
+"United Kingdom","Europe","Monthly",6300,7235.37,1829.27,32214.63,4,5,0,0,60,3.85,TRUE,30385.36
+"United States","Northern America","Monthly",6966,7925,2000,35250,3,4,0,0,88.2,14.7,TRUE,33250
+"Uruguay","South America","Monthly",773.64,862.2,217.24,3829.12,9,15,48,29,63.1,8.73,FALSE,3611.88
+"Uzbekistan","Asia","Monthly",97.25,106.98,27.07,477.35,15,14,0,0,10.1,5.92,FALSE,450.28
+"Vanuatu","Oceania","Monthly",750.74,821.77,207.3,3650.48,46,41,0,0,4.7,4.39,FALSE,3443.18
+"Venezuela","South America","Monthly",3282.02,3862.91,972.99,17165.26,19,28,0,0,79.3,8.8,TRUE,16192.27
+"Vietnam","Asia","Monthly",612.57,711.24,179.25,3161.52,0,0,50,61,28.5,2.01,FALSE,2982.27
+"Yemen","Asia","Monthly",120.98,133.36,33.62,594.93,68,46,37,23,10.2,12.91,FALSE,561.31
+"Zambia","Africa","Monthly",0.26133504,0.28552394,0.072092424,1.2711033,0,0,33,27,4.1,11.43,FALSE,1.199010876
+"Zimbabwe","Africa","Monthly",555.40204,602.37635,151.42305,2674.772,50,45,17,14,10,4.95,FALSE,2523.34895
