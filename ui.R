@@ -62,13 +62,14 @@ viz_1_sidebar <- sidebarPanel(
               label = "Select a Continent", 
               choices = df$continent_name, 
               selected = "Asia", 
-              multiple = FALSE)
+              multiple = FALSE),
+  h3("Interpretation: "),
+  p("TEXT INPUT")
 )
 
 viz_1_main_panel <- mainPanel(
   h2("The Unemployment Rates of Countries"),
-  plotlyOutput(outputId = "viz_output_a"),
-  p("Analysis")
+  plotlyOutput(outputId = "viz_output_a")
 )
 
 viz_1_tab <- tabPanel("Viz 1: Unemployment Rate",
@@ -87,7 +88,9 @@ viz_2_sidebar <- sidebarPanel(
               label = "Select a Continent", 
               choices = df$continent_name, 
               selected = "Asia", 
-              multiple = FALSE)
+              multiple = FALSE),
+  h3("Interpretation: "),
+  p("TEXT INPUT")
 )
 
 viz_2_main_panel <- mainPanel(
@@ -116,7 +119,9 @@ viz_3_sidebar <- sidebarPanel(
               label = "Select a Continent", 
               choices = df$continent_name, 
               selected = "Asia", 
-              multiple = FALSE)
+              multiple = FALSE),
+  h3("Interpretation: "),
+  p("TEXT INPUT")
 )
 
 viz_3_main_panel <- mainPanel(
@@ -134,8 +139,21 @@ viz_3_tab <- tabPanel("Viz 3: Income Gap and Employment Rate",
 ## CONCLUSIONS TAB INFO
 
 conclusion_tab <- tabPanel("Conclusion",
- h1("Conclusion"),
- p("some conclusions")
+ h1("Conclusion",align = "left"),
+ p("Through our careful study, we started an investigation to discover correlations between education levels and work 
+   circumstances throughout the world. Our findings highlight trends that are essential to explaining economic and educational 
+   inequality."),
+ p(),
+ p("Our tool navigates each continent's economic environment, from visualizing unemployment statistics and education rates versus
+ earnings. Higher education levels tends to correlate with better work conditions, indicating a global trend in which education 
+ serves as a catalyst for economic opportunity and stability."),
+ p(),
+ p("While our application offers a comprehensive view of these relationships, we can't overlook the changing global economy and the 
+   evolving nature of education. As such, this project should be seen as a snapshot which allowing further studies to be built."),
+ p(),
+ p("In conclusion, our project showed the crucial ties between education and employment, promoting a forward-thinking education 
+   policy and economic planning to be made. By investing in education, we invest in the future stability and prosperity of our 
+   global society.")
 )
 
 
