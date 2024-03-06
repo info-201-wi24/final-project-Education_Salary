@@ -37,4 +37,10 @@ In order to perform analysis more explicitly, we combine the two datasets and se
 
 
 # Conclusion / Summary Takeaways
+Through our careful study, we started an investigation to discover correlations between education levels and work circumstances throughout the world. Our findings highlight trends that are essential to explaining economic and educational inequality.
 
+Our tool navigates each continent's economic environment, from visualizing unemployment statistics and education rates versus earnings. Higher education levels tends to correlate with better work conditions, indicating a global trend in which education serves as a catalyst for economic opportunity and stability. what's more, The relationship between the income gap and the unemployment rate is not straightforwardly,indicates further researches in variety of factors are necessary. Based on the graphs, it appears that unemployment rates can vary significantly across countries within each continent, it highlights that there is no universal pattern or single economic trend about how unemployment rates distribute globally.
+
+While our application offers a comprehensive view of these relationships, we can't overlook the changing global economy and the evolving nature of education. As such, this project should be seen as a snapshot which allowing further studies to be built.
+
+In conclusion, our project showed the crucial ties between education and employment, promoting a forward-thinking education policy and economic planning to be made. By investing in education, we invest in the future stability and prosperity of our global society.
