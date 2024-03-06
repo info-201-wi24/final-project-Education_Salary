@@ -5,11 +5,19 @@ library(markdown)
 
 df <- read.csv("https://raw.githubusercontent.com/info-201-wi24/final-project-Education_Salary/main/joined_df.csv")
 
+#my_theme <- bs_theme(bg = "#0b3d91", #background color
+#                     fg = "white", #foreground color
+#                     primary = "black", # primary color
+#) 
+my_theme <- bs_theme()
+my_theme <- bs_theme_update(my_theme, bootswatch = "minty") 
+
 ## OVERVIEW TAB INFO
 
 overview_tab <- tabPanel("Overview",
-   h1("INFO 201 Final Project BE4", align = "center"),
-   h2("Aijing Yang, Xiaobo Li, Jeffery Chen, Roxy Xu", align = "center"), 
+   h1("INFO 201 Final Project BE4", align = "left"),
+   h6("Aijing Yang, Xiaobo Li, Jeffery Chen, Roxy Xu", align = "left"), 
+   img(src = "education_employment.jpg", hight = "300px", width = "500px", align = "center"),
    p("In our project, we explore the correlation between regional employment condition and education level. 
       The data are collected globally, we will analyze the general educatoins in each region and see
       if there is a pattern between that and the employment rate and monthly salary.
@@ -17,6 +25,7 @@ overview_tab <- tabPanel("Overview",
    a("https://www.kaggle.com/datasets/nelgiriyewithana/world-educational-data", href = "url"),
    p(),
    a("https://www.kaggle.com/datasets/zedataweaver/global-salary-data", href = "url"),
+   p(),
    p("In order to perform analysis more explicitly, we combine the two datasets and select several features
       that are particularly relative to our major question."),
    
@@ -49,7 +58,7 @@ overview_tab <- tabPanel("Overview",
 viz_1_sidebar <- sidebarPanel(
   h2("Choose the Continent you want to see"),
   #TODO: Put inputs for modifying graph here
-  selectInput(inputId = "continent",
+  select_widget1 <-selectInput(inputId = "continent1",
               label = "Select a Continent", 
               choices = df$continent_name, 
               selected = "Asia", 
@@ -57,11 +66,12 @@ viz_1_sidebar <- sidebarPanel(
 )
 
 viz_1_main_panel <- mainPanel(
-  h2("Relationship between country and unemployment rate"),
-  plotlyOutput(outputId = "viz_output_a")
+  h2("The Unemployment Rates of Countries"),
+  plotlyOutput(outputId = "viz_output_a"),
+  p("Analysis")
 )
 
-viz_1_tab <- tabPanel("Viz 1: unemployment rate",
+viz_1_tab <- tabPanel("Viz 1: Unemployment Rate",
   sidebarLayout(
     viz_1_sidebar,
     viz_1_main_panel
@@ -73,7 +83,7 @@ viz_1_tab <- tabPanel("Viz 1: unemployment rate",
 viz_2_sidebar <- sidebarPanel(
   h2("Choose the Continent you want to see"),
   #TODO: Put inputs for modifying graph here
-  selectInput(inputId = "continent",
+  select_widget2 <- selectInput(inputId = "continent2",
               label = "Select a Continent", 
               choices = df$continent_name, 
               selected = "Asia", 
@@ -85,7 +95,7 @@ viz_2_main_panel <- mainPanel(
   plotlyOutput(outputId = "viz_output_b")
 )
 
-viz_2_tab <- tabPanel("Viz 2: education rate vs. salary",
+viz_2_tab <- tabPanel("Viz 2: Education Rate vs. Salary",
   sidebarLayout(
     viz_2_sidebar,
     viz_2_main_panel
@@ -95,16 +105,26 @@ viz_2_tab <- tabPanel("Viz 2: education rate vs. salary",
 ## VIZ 3 TAB INFO
 
 viz_3_sidebar <- sidebarPanel(
-  h2("Options for graph"),
+  h2("Choose the range of income gap and the Continent you want to see"),
   #TODO: Put inputs for modifying graph here
+  slider_widget1 <- sliderInput(inputId= "slider2", 
+              label = "Income-gap Range", 
+              min = 0, 
+              max = max(df$Income_gap), 
+              value = c(40, 60)),
+  select_widget3 <- selectInput(inputId = "continent3",
+              label = "Select a Continent", 
+              choices = df$continent_name, 
+              selected = "Asia", 
+              multiple = FALSE)
 )
 
 viz_3_main_panel <- mainPanel(
-  h2("Vizualization 3 Title"),
-  # plotlyOutput(outputId = "your_viz_1_output_id")
+  h2("Pattern Between Income-Gap and Employment Rate"),
+  plotlyOutput(outputId = "viz_output_c")
 )
 
-viz_3_tab <- tabPanel("Viz 3 tab title",
+viz_3_tab <- tabPanel("Viz 3: Income Gap and Employment Rate",
   sidebarLayout(
     viz_3_sidebar,
     viz_3_main_panel
@@ -113,14 +133,14 @@ viz_3_tab <- tabPanel("Viz 3 tab title",
 
 ## CONCLUSIONS TAB INFO
 
-conclusion_tab <- tabPanel("Conclusion Tab Title",
- h1("Some title"),
+conclusion_tab <- tabPanel("Conclusion",
+ h1("Conclusion"),
  p("some conclusions")
 )
 
 
-
-ui <- navbarPage("Example Project Title",
+ui <- navbarPage("Relationship Between Education-level and Employments",
+  theme = my_theme,
   overview_tab,
   viz_1_tab,
   viz_2_tab,
