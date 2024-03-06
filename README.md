@@ -30,7 +30,9 @@ Additionally, there are also ethical consideration and limitations of data analy
 
 We found our two datasets on kaggle, here are the links of global educations and salaray respectively:
 https://www.kaggle.com/datasets/nelgiriyewithana/world-educational-data
+
 https://www.kaggle.com/datasets/zedataweaver/global-salary-data
+
 In order to perform analysis more explicitly, we combine the two datasets and select several features that are particularly relative to our major question.
 
 
