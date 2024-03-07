@@ -16,12 +16,24 @@ my_theme <- bs_theme_update(my_theme, bootswatch = "minty")
 
 overview_tab <- tabPanel("Overview",
    h1("INFO 201 Final Project BE4", align = "left"),
-   h6("Aijing Yang, Xiaobo Li, Jeffery Chen, Roxy Xu", align = "left"), 
+   h5("Aijing Yang, Xiaobo Li, Jeffery Chen, Roxy Xu", align = "left"), 
    img(src = "education_employment.jpg", hight = "300px", width = "500px", align = "center"),
    p("In our project, we explore the correlation between regional employment condition and education level. 
       The data are collected globally, we will analyze the general educatoins in each region and see
-      if there is a pattern between that and the employment rate and monthly salary.
-      We found our two datasets on kaggle, here are the links of global educations and salaray respectively:"),
+      if there is a pattern between that and the employment rate and monthly salary."),
+   p("We want to know the employment/unemployment situation in each country worldwide. And how
+     is their average salary and disparity? What is the proportion of people completing upper education in each country?
+     In general, we want to discover whether there is any correlation between them."),
+   p("To answer these questions, we use two datasets where the first one provides information about rate of different
+     education stages acrros the country, and the second one covers the investigation of unemployment rate monthly salary 
+     including its minmimum, maximum, average, and median. In our project, we partitioned the data and 
+     extract those that focuses on the rate of upper level education, rate of unemployment, and the spread of salary."),
+   p("Additionally, there are also ethical consideration and limitations of data analysis that cannot be ignored.
+      The accuracy of the data, particularly self-reported education levels and salaries, can vary. 
+      Biases may arise if certain groups are more likely to misreport or if there are discrepancies in how data 
+      is collected. The dataset may contain sensitive personal information that could compromise the privacy of individuals. 
+      Care must be taken to anonymize or aggregate data to protect individuals' identities."),
+   p("We found our two datasets on kaggle, here are the links of global educations and salaray respectively:"),
    a("https://www.kaggle.com/datasets/nelgiriyewithana/world-educational-data", href = "url"),
    p(),
    a("https://www.kaggle.com/datasets/zedataweaver/global-salary-data", href = "url"),
@@ -44,13 +56,7 @@ overview_tab <- tabPanel("Overview",
    p("Gross_Tertiary_Education_Enrollment: Gross enrollment in tertiay education are in type of integer"),
    p("Unemployment_Rate:Unemployment rates in the respective countries/areas are in type of double"),
    p("IS_above_average: The average salary in that country is above tha global average salary are in type of boolean"),
-   p("income_gap: gaps between highest salaries and lowest salaries are in type of double "),
-      
-    p("Possible ethical questions and limitations: 
-      The accuracy of the data, particularly self-reported education levels and salaries, can vary. 
-      Biases may arise if certain groups are more likely to misreport or if there are discrepancies in how data 
-      is collected. The dataset may contain sensitive personal information that could compromise the privacy of individuals. 
-      Care must be taken to anonymize or aggregate data to protect individuals' identities.")
+   p("income_gap: gaps between highest salaries and lowest salaries are in type of double ")
 )
 
 ## VIZ 1 TAB INFO
@@ -64,7 +70,10 @@ viz_1_sidebar <- sidebarPanel(
               selected = "Asia", 
               multiple = FALSE),
   h3("Interpretation: "),
-  p("TEXT INPUT")
+  p("Unemployment rates can vary significantly by continent due to differences in economic structure, labor market policies, demographics, and other factors. According to our data, Asia is a diverse continent with varying levels of economic development and labor market dynamics. Countries like Japan and South Korea typically have lower unemployment rates due to advanced industrial economies and strong manufacturing sectors. Emerging economies in Asia, such as India and Indonesia, may have higher unemployment rates, particularly in rural areas or among youth, due to factors like underemployment and informal labor markets.
+Unemployment rates in Europe vary widely among countries due to differences in economic development, labor market policies, and social welfare systems. Some countries in Northern Europe, such as Germany and the Nordic countries, tend to have lower unemployment rates due to strong social safety nets and active labor market policies. 
+The most surprising phenomenon we found in this graph is that the US’s unemployment rate is unexpectedly high. 
+")
 )
 
 viz_1_main_panel <- mainPanel(
@@ -90,7 +99,8 @@ viz_2_sidebar <- sidebarPanel(
               selected = "Asia", 
               multiple = FALSE),
   h3("Interpretation: "),
-  p("TEXT INPUT")
+  p("According to our data, The correlation between the rate of completing upper secondary education and average salary 
+    tends to be positive, meaning that in general, higher levels of education are associated with higher average salaries.")
 )
 
 viz_2_main_panel <- mainPanel(
@@ -121,7 +131,12 @@ viz_3_sidebar <- sidebarPanel(
               selected = "Asia", 
               multiple = FALSE),
   h3("Interpretation: "),
-  p("TEXT INPUT")
+  p("The relationship between income inequality and the employment rate is complex and can vary 
+    depending on economic conditions, labor market dynamics, and government policies. 
+    Patterns can include positive or negative correlations, or even non-linear relationships, 
+    influenced by factors such as regional variations and policy interventions. Understanding this 
+    relationship requires considering multiple factors and contexts, as the dynamics differ widely 
+    across economies and societies.")
 )
 
 viz_3_main_panel <- mainPanel(
@@ -146,7 +161,10 @@ conclusion_tab <- tabPanel("Conclusion",
  p(),
  p("Our tool navigates each continent's economic environment, from visualizing unemployment statistics and education rates versus
  earnings. Higher education levels tends to correlate with better work conditions, indicating a global trend in which education 
- serves as a catalyst for economic opportunity and stability."),
+ serves as a catalyst for economic opportunity and stability. what's more, The relationship between the income gap and the unemployment 
+   rate is not straightforwardly,indicates further researches in variety of factors are necessary. Based on the graphs, it appears that 
+   unemployment rates can vary significantly across countries within each continent, it highlights that there is no universal pattern 
+   or single economic trend about how unemployment rates distribute globally."),
  p(),
  p("While our application offers a comprehensive view of these relationships, we can't overlook the changing global economy and the 
    evolving nature of education. As such, this project should be seen as a snapshot which allowing further studies to be built."),
